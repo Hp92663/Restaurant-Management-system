@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card3"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:layout_margin="10dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    app:cardBackgroundColor="#CDE67272"
+    app:cardCornerRadius="10dp">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="p"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="60dp"
+        android:text="p"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="110dp"
+        android:text="p"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/uperson"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="160dp"
+        android:text="p"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="DuplicateIds" />
+
+</androidx.cardview.widget.CardView>

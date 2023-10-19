@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.demo">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        android:label="Restorent"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Demo"
+        tools:targetApi="31">
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".bookinginfo"
+            android:exported="false" />
+        <activity
+            android:name=".gotofail"
+            android:exported="false" />
+        <activity
+            android:name=".gotosuccess"
+            android:exported="false" />
+        <activity
+            android:name=".bookdisplay"
+            android:exported="false" />
+        <activity
+            android:name=".managetable"
+            android:exported="false" />
+        <activity
+            android:name=".booksuccess"
+            android:exported="true" />
+        <activity
+            android:name=".tablebook"
+            android:exported="false" />
+        <activity
+            android:name=".menuoption"
+            android:exported="false" />
+        <activity
+            android:name=".menudisplay"
+            android:exported="true" />
+        <activity
+            android:name=".managerside"
+            android:exported="true" />
+        <activity
+            android:name=".addmn"
+            android:exported="true" />
+        <activity
+            android:name=".addmenuform"
+            android:exported="true" />
+        <activity
+            android:name=".userhome"
+            android:exported="true" />
+        <activity
+            android:name=".adminside"
+            android:exported="true" />
+        <activity
+            android:name=".home"
+            android:exported="true" />
+        <activity
+            android:name=".registration"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".flash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_HHIK7bhmtxxXhz" />
+    </application>
+
+</manifest>
